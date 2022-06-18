@@ -1,0 +1,178 @@
+
+.icons{
+   width: 20px;
+   height: 20px;
+}
+.logo{
+  width: 100px;
+  height: 80px;
+}
+
+.leagues{
+  font-size: 24px;
+}
+
+.usericon{
+  width: 30px;
+  height: 30px;
+}
+
+.header-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  }
+
+.header-li{
+  font-size: 20px;
+}
+
+.headerpadding{
+  padding-left: 220px;
+}
+
+.textcarousel{
+  border: 1px solid #ffffff;
+  background-color: #05b802;
+  padding-left: 0.3cm;
+  padding-right: 0.3cm;
+}
+
+.product {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-right: auto;
+}
+
+.product.tumbnail {
+  box-shadow: 0 5px 25px 0 transparent;
+  transition: 0.3s linear;
+  padding-top: 0;
+}
+
+.price {
+  display: inline-block;
+  font-size: 15px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #2b2f3e;
+}
+
+
+.imagecatalogue{
+  height: 250px;
+  width: 300px;
+}
+
+.floatcatalogue{
+  float:left;
+}
+
+
+.flagicon{
+  width: 16px;
+  height: 16px;
+}
+
+.cajafuera
+{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+	overflow: hidden;
+	background: #f2f2f2;	
+
+}
+.formulariocaja
+{
+	background-color: white;
+    width: 450px;
+    height: 600PX;
+    position: relative;
+    margin: auto;
+    padding: 1em;
+	border-radius: 5px;
+	color:white;
+	border:0.1em solid #C2C2C2;
+}
+
+input 
+{
+	display: block;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+.cajaentradatexto{
+    width: 80%;
+    padding: 10px;
+	font-size:1em;
+	color:black;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #c3c3c3;
+	background: transparent;
+	margin-bottom: 2em;
+}
+
+.formtitulo
+{
+	margin-top:1.5em;
+	font-size:2em;
+	font-weight: bold;
+	padding-bottom:0.8em;
+	color:black;
+  text-align: center;
+}
+
+.af
+{
+	text-align: center;
+	margin-top:5%;
+}
+
+.botonenviar
+{
+    width: 80%;
+    padding: 12px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+	border:1px solid black;
+	font-size:1.2em;
+	color:white;
+	background-color: #008952;
+	text-align:center;
+	margin:5%;
+	font-weight: bold;
+}
+
+.imgv
+{	
+		padding:20px;
+}
+.imgv img
+{
+	cursor: pointer;
+	max-width: 20%;
+	height:auto;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.go-up-button {
+	display:none;
+	padding:20px;
+	background:#008952;
+	font-size:20px;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+  }
+

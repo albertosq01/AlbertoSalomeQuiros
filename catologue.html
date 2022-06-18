@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Catologue</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="fonts.css" rel="stylesheet">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="go-up.js"></script>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var offset = $("#sidebar").offset();
+            var topPadding = 15;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > offset.top) {
+                    $("#sidebar").stop().animate({
+                        marginTop: $(window).scrollTop() - offset.top + topPadding
+                    });
+                } else {
+                    $("#sidebar").stop().animate({
+                        marginTop: 0
+                    });
+                };
+            });
+        });
+    </script>
+    
+
+
+  <div class="container">
+    <header style="background-image:url(imagenes/Background.svg)" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom header-image">
+      <a href="index.html" class="d-flex align-items-center col-md-1 mb-2 mb-md-0 text-dark text-decoration-none">
+        <img class="logo" src="imagenes/balon.png" alt="logo">
+      </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 headerpadding">
+        <li><a href="index.html" class="nav-link px-2 link-dark header-li">Home</a></li>
+        <li><a href="catologue.html" class="nav-link px-2 link-secondary header-li">Catalogue</a></li>
+        <li><a href="contact.html" class="nav-link px-2 link-dark header-li">Contact us</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <a type="button" class="btn btn-primary" style="background-color: #008952; border: 2px solid #ffffff;" href="login.html">Login</a>
+        <a type="button" class="btn btn-primary" style="background-color: #008952; border: 2px solid #ffffff;" href="register.html">Sign-up</a>
+      </div>
+    </header>
+  </div>
+</head>
+
+
+<body>
+  <span class="go-up-button icon-circle-up"></span>
+
+  <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 bg-light floatcatalogue" style="width: 280px;">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+      <span class="fs-4">LEAGUES</span>
+    </a>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <a href="#esp" class="nav-link link-dark" aria-current="page">
+          <svg class="bi pe-none me-2" width="16" height="16"><image class="flagicon" href="imagenes/espana.png"/></svg>
+          La Liga
+        </a>
+      </li>
+      <li>
+        <a href="#ita" class="nav-link link-dark">
+          <svg class="bi pe-none me-2" width="16" height="16"><image class="flagicon" href="imagenes/italia.png"/></svg>
+          Serie A
+        </a>
+      </li>
+      <li>
+        <a href="#eng" class="nav-link link-dark">
+          <svg class="bi pe-none me-2" width="16" height="16"><image class="flagicon" href="imagenes/england.png"/></svg>
+          Premier Ligue
+        </a>
+      </li>
+      <li>
+        <a href="#ger" class="nav-link link-dark">
+          <svg class="bi pe-none me-2" width="16" height="16"><image class="flagicon" href="imagenes/germany.png"/></svg>
+          Bundesliga
+        </a>
+      </li>
+      <li>
+        <a href="#fr" class="nav-link link-dark">
+          <svg class="bi pe-none me-2" width="16" height="16"><image class="flagicon" href="imagenes/france.png"/></svg>
+          Ligue 1
+        </a>
+      </li>
+      <li>
+        <a href="#int" class="nav-link link-dark">
+          <svg class="bi pe-none me-2" width="16" height="16"><image class="flagicon" href="imagenes/international.png"/></svg>
+          International
+        </a>
+      </li>
+    </ul>
+    <hr>
+  </div>
+
+  
+  <div class="container bootstrap snipets">
+    <h1 class="text-center text-muted">Shirst catalogue</h1>
+    <div class="row flow-offset-1">
+      <div class="col-xs-6 col-md-4">
+        <div id="esp" class="product tumbnail thumbnail-3"><img  class= "imagecatalogue"src="imagenes/camisetas/barcelona.webp" alt="barcelona" >
+          <div class="caption">
+            <h6>FC Barcelona</h6><span class="price">
+              <span class="price">$35</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/madrid.webp" alt="madrid">
+          <div class="caption">
+            <h6>Real Madrid</h6><span class="price">
+              <span class="price">$35</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/atmadrid.webp" alt="atmadrid">
+          <div class="caption">
+            <h6>Atletico Madrid</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/sevilla.jpg" alt="sevilla">
+          <div class="caption">
+            <h6>Sevilla</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/villarreal.jpg" alt="villarreal">
+          <div class="caption">
+            <h6>Villarreal</h6><span class="price">$25</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/realsociedad.jpg" alt="real sociedad">
+          <div class="caption">
+            <h6>Real Sociedad</h6><span class="price">$20</span>
+          </div>
+        </div>
+      </div>
+      <div id= "ita" class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/juventus.jpg" alt="juventus">
+          <div class="caption">
+            <h6>Juventus</h6><span class="price">$35</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/milan.jpg" alt="milan">
+          <div class="caption">
+            <h6>AC Milan</h6><span class="price">$35</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/inter.jpg" alt="inter">
+          <div class="caption">
+            <h6>Inter Milan</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/lazio.jpg" alt="lazio">
+          <div class="caption">
+            <h6>Lazio</h6><span class="price">$25</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/napoli.jpg" alt="napoli">
+          <div class="caption">
+            <h6>Napoli</h6><span class="price">$25</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/roma.jpg" alt="roma">
+          <div class="caption">
+            <h6>Roma</h6><span class="price">$25</span>
+          </div>
+        </div>
+      </div>
+      <div id="eng" class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/city.jpg" alt="city">
+          <div class="caption">
+            <h6>Manchester City</h6><span class="price">$35</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/united.jpg" alt="united">
+          <div class="caption">
+            <h6>Manchester United</h6><span class="price">$35</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/liverpool.jpg" alt="liverpool">
+          <div class="caption">
+            <h6>Liverpool</h6><span class="price">$35</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/arsenal.jpg" alt="arsenal">
+          <div class="caption">
+            <h6>Arsenal</h6><span class="price">$25</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/tottenham.webp" alt="tottenham">
+          <div class="caption">
+            <h6>Tottenham</h6><span class="price">$20</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/chelsea.jpg" alt="chelsea">
+          <div class="caption">
+            <h6>Chelsea</h6><span class="price">$25</span>
+          </div>
+        </div>
+      </div>
+      <div id="ger" class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/bayern.jpg" alt="bayern">
+          <div class="caption">
+            <h6>Bayern Munich</h6><span class="price">$35</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/borussia.webp" alt="borussia">
+          <div class="caption">
+            <h6>Borussia Dortmund</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/leipzig.jpg" alt="leipzig">
+          <div class="caption">
+            <h6>Leipzig</h6><span class="price">$25</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/leverkusen.jpg" alt="leverkusen">
+          <div class="caption">
+            <h6>Bayer Leverkusen</h6><span class="price">$20</span>
+          </div>
+        </div>
+      </div>
+      <div id="fr" class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/psg.jpg" alt="psg">
+          <div class="caption">
+            <h6>Paris Saint-Germain</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/lyon.jpg" alt="lyon">
+          <div class="caption">
+            <h6>Olympique Lyon</h6><span class="price">$20</span>
+          </div>
+        </div>
+      </div>
+      <div id="int" class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/italy.webp" alt="italy">
+          <div class="caption">
+            <h6>Italy</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/espana.jpg" alt="spain">
+          <div class="caption">
+            <h6>Spain</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/england.webp" alt="englad">
+          <div class="caption">
+            <h6>England</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/germany.webp" alt="germany">
+          <div class="caption">
+            <h6>Germany</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/france.webp" alt="france">
+          <div class="caption">
+            <h6>France</h6><span class="price">$20</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/argentina.jpg" alt="argentina">
+          <div class="caption">
+            <h6>Argentina</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+        <div class="product tumbnail thumbnail-3"><img class= "imagecatalogue" src="imagenes/camisetas/brasil.webp" alt="brasil">
+          <div class="caption">
+            <h6>Brasil</h6><span class="price">$30</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<footer style="background-image: url(imagenes/Background.svg);" class="bg-light text-center text-white header-image">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a 
+          class="btn btn-primary btn-floating m-1 "
+          style="background-color: #2323fa;"
+          href="#!"
+          role="button">
+          <img   src="imagenes/facebook.png" alt="facebook" class="icons">
+        </a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><img src="imagenes/twitter.png" alt="twitter" class="icons">
+        </a>
+  
+        <!-- Youtube -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #ff1e00;"
+          href="#!"
+          role="button"
+          ><img src="imagenes/youtube.png" alt="youtube" class="icons">
+        </a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #f740d0;"
+          href="#!"
+          role="button"
+          ><img src="imagenes/instagram.png" alt="instagram" class="icons"> 
+        </a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><img src="imagenes/linkedin.png" alt="linkedin" class="icons">
+        </a>
+        <!-- Whatsapp -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #04ff00;"
+          href="#!"
+          role="button"
+          ><img src="imagenes/whatsapp.png" alt="whatsapp" class="icons">
+        </a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color:  #05b802;">
+      © 2022 Copyright:
+      <a class="text-white" href="index.html">CheapFootballShirts.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</html>

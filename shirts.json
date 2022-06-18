@@ -1,0 +1,218 @@
+[
+    {
+        "price": 35,
+        "id": 0,
+        "title": "FC Barcelona",
+        "photo": "imagenes/camisetas/barcelona.webp"
+      },
+    {
+      "price": 35,
+      "id": 1,
+      "title": "Real Madrid",
+      "photo": "imagenes/camisetas/madrid.webp"
+    },
+
+    {
+      "price": 30,
+      "id": 2,
+      "title": "Atletico Madrid",
+      "photo": "imagenes/camisetas/atmadrid.webp"
+    },
+
+    {
+      "price": 30,
+      "id": 3,
+      "title": "Sevilla",
+      "photo": "imagenes/camisetas/sevilla.jpg"
+    },
+
+    {
+      "price": 25,
+      "id": 4,
+      "title": "Villareal",
+      "photo": "imagenes/camisetas/villarreal.jpg"
+    },
+
+    {
+      "price": 20,
+      "id": 5,
+      "title": "Real Sociedad",
+      "photo": "imagenes/camisetas/realsociedad.jpg"
+    },
+
+    {
+      "price": 35,
+      "id": 5,
+      "title": "Juventus",
+      "photo": "imagenes/camisetas/juventus.jpg"
+    },
+
+    {
+      "price": 35,
+      "id": 6,
+      "title": "AC Milan",
+      "photo": "imagenes/camisetas/milan.jpg"
+    },
+
+    {
+      "price": 30,
+      "id": 7,
+      "title": "Inter Milan",
+      "photo": "imagenes/camisetas/inter.jpg"
+    },
+
+    {
+      "price": 25,
+      "id": 8,
+      "title": "Lazio",
+      "photo": "imagenes/camisetas/lazio.jpg"
+    },
+
+    {
+      "price": 25,
+      "id": 9,
+      "title": "Napoli",
+      "photo": "imagenes/camisetas/napoli.jpg"
+    },
+
+    {
+      "price": 25,
+      "id": 10,
+      "title": "Roma",
+      "photo": "imagenes/camisetas/roma.jpg"
+    },
+
+    {
+      "price": 35,
+      "id": 11,
+      "title": "Manchester City",
+      "photo": "imagenes/camisetas/city.jpg"
+    },
+
+    {
+      "price": 35,
+      "id": 12,
+      "title": "Manchester United",
+      "photo": "imagenes/camisetas/united.jpg"
+    },
+
+    {
+      "price": 35,
+      "id": 13,
+      "title": "Liverpool",
+      "photo": "imagenes/camisetas/liverpool.jpg"
+    },
+
+    {
+      "price": 25,
+      "id": 14,
+      "title": "Arsenal",
+      "photo": "imagenes/camisetas/arsenal.jpg"
+    },
+
+    {
+      "price": 20,
+      "id": 15,
+      "title": "Tottenham",
+      "photo": "imagenes/camisetas/tottenham.webp"
+    },
+
+    {
+      "price": 25,
+      "id": 16,
+      "title": "Chelsea",
+      "photo": "imagenes/camisetas/chelsea.jpg"
+    },
+
+    {
+      "price": 35,
+      "id": 17,
+      "title": "Bayern Muncih",
+      "photo": "imagenes/camisetas/bayern.jpg"
+    },
+
+    {
+      "price": 30,
+      "id": 18,
+      "title": "Borussia Dortmund",
+      "photo": "imagenes/camisetas/borussia.webp"
+    },
+    
+    {
+      "price": 25,
+      "id": 19,
+      "title": "Leipzig",
+      "photo": "imagenes/camisetas/leipzig.jpg"
+    },
+    
+    {
+      "price": 20,
+      "id": 20,
+      "title": "Bayer Leverkusen",
+      "photo": "imagenes/camisetas/leverkusen.jpg"
+    },
+
+    {
+      "price": 30,
+      "id": 21,
+      "title": "Paris Saint-Germain",
+      "photo": "imagenes/camisetas/psg.jpg"
+    },
+
+    {
+      "price": 20,
+      "id": 22,
+      "title": "Olympique Lyon",
+      "photo": "imagenes/camisetas/lyon.jpg"
+    },
+
+    {
+      "price": 30,
+      "id": 23,
+      "title": "Italy",
+      "photo": "imagenes/camisetas/italy.webp"
+    },
+
+    {
+      "price": 30,
+      "id": 24,
+      "title": "Spain",
+      "photo": "imagenes/camisetas/espana.jpg"
+    },
+
+    {
+      "price": 30,
+      "id": 25,
+      "title": "England",
+      "photo": "imagenes/camisetas/england.webp"
+    },
+
+    {
+      "price": 30,
+      "id": 26,
+      "title": "Germany",
+      "photo": "imagenes/camisetas/germany.webp"
+    },
+
+    {
+      "price": 20,
+      "id": 27,
+      "title": "France",
+      "photo": "imagenes/camisetas/france.webp"
+    },
+
+    {
+      "price": 30,
+      "id": 28,
+      "title": "Argentina",
+      "photo": "imagenes/camisetas/argentina.jpg"
+    },
+
+    {
+      "price": 30,
+      "id": 29,
+      "title": "Brasil",
+      "photo": "imagenes/camisetas/brasil.webp"
+    }
+
+]
